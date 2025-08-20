@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.NavBar__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 26.5px 119px 26.5px 112px;
+
+}
+
+.NavBar__logo__texto {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A404E;
+}
+
+.NavBar__links {
+    display: flex;
+    gap: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #667085;
+}
+
+.NavBar__botoes {
+    display: flex;
+    gap: 12px;
+    margin: 18px 112px 18px 380px;
+}
+
+.NavBar__botoes__entrar {
+    background-color: #FFFFFF;
+    border: none;   
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #667085;
+    padding: 10px 18px 10px 18px; 
+    gap: 8px;
+}
+
+.NavBar__botoes__cadastrar {
+    background-color: #8E2424;
+    border: 1px;
+    padding: 10px 18px 10px 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    border-radius: 8px;
+    text-decoration: none;
+}   
