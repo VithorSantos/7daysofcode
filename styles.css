@@ -1,67 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+    --background-color: #FFFFFF;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+}
+
 .NavBar {
     display: flex;
-    flex-direction: row;
-    background-color: #FFFFFF;
+    justify-content: space-around;
+    background-color: var(--background-color);
     align-items: center;
+    padding: 1rem 0;
 }
 
 .NavBar__logo {
     display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 26.5px 119px 26.5px 112px;
-
-}
-
-.NavBar__logo__texto {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: #3A404E;
+    align-items: center; 
+    gap: 0.5rem;
+    margin-left: 7rem;
 }
 
 .NavBar__links {
     display: flex;
-    gap: 32px;
+    gap: 2rem;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #667085;
+    margin-right: 16rem;
+    margin-left: 7.4rem;
 }
 
 .NavBar__botoes {
     display: flex;
-    gap: 12px;
-    margin: 18px 112px 18px 380px;
+    gap: 0.75rem;
+    margin-right: 7rem;
 }
 
 .NavBar__botoes__entrar {
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
     border: none;   
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #667085;
-    padding: 10px 18px 10px 18px; 
-    gap: 8px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
 }
 
 .NavBar__botoes__cadastrar {
     background-color: #8E2424;
-    border: 1px;
-    padding: 10px 18px 10px 18px;
+    padding: 0.8rem 1rem;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 500;
     color: #FFFFFF;
-    border-radius: 8px;
+    border-radius: 0.5rem;
+    border: none;
     text-decoration: none;
+    cursor: pointer;
 }   
