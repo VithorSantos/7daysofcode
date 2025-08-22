@@ -11,22 +11,48 @@
 
 <body>
     <header class="NavBar">
-        <section class="NavBar__logo">
+        <div class="NavBar__logo">
             <img src="/assets/logo.png" alt="Logo">
-        </section>
+        </div>
         <nav class="NavBar__links">
             <a>Home</a>
             <a>Produtos</a>
             <a>Recursos</a>
-            <a>Sobre nós</a>
+            <a class="NavBar__links__SobreNos" href="#SobreNos">Sobre nós</a>
         </nav>
-        <section class="NavBar__botoes">
+        <div class="NavBar__botoes">
             <button class="NavBar__botoes__entrar">Entrar</button>
             <button class="NavBar__botoes__cadastrar">Cadastrar</button>
-        </section>
+        </div>
     </header>
     <main>
-
+        <section class="SobreNos" id="SobreNos">
+            <span class="SobreNos__texto">Sobre Nós</span>
+            <h1 class="SobreNos__titulo">Por que somos diferentes?</h1>
+            <p class="SobreNos__paragrafo">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        </section>
+        <section class="Dados"> 
+            <div class="Dados__Projetos">
+                <span class="Dados__Projetos__numero">400+</span>
+                <h2 class="Dados__Projetos__titulo">Projetos Concluídos</h2>
+                <p class="Dados__Projetos__descricao">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+            </div>
+            <div class="Dados__Colaboradores">
+                <span class="Dados__Colaboradores__numero">100+</span>
+                <h2 class="Dados__Colaboradores__titulo">Colaboradores</h2>
+                <p class="Dados__Colaboradores__descricao">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p> 
+            </div>
+            <div>
+                <span class="Dados__Downloads__numero">20k</span>
+                <h2 class="Dados__Downloads__titulo">Downloads</h2>
+                <p class="Dados__Downloads__descricao">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+            </div>
+            <div>
+                <span class="Dados__Reviews__numero">500+</span>
+                <h2 class="Dados__Reviews__titulo">Reviews 5 estrelas</h2>
+                <p class="Dados__Reviews__descricao">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+            </div>
+        </section>
     </main>
 </body>
 
