@@ -25,7 +25,8 @@ body {
     justify-content: space-between;
     background-color: var(--background-color);
     align-items: center;
-    padding: 1rem 7rem;
+    margin: 2rem 7rem 8rem 7rem;
+    padding: 0 2rem;
 }
 
 .NavBar__logo {
@@ -40,9 +41,8 @@ body {
     font-size: 1rem;
     font-weight: 500;
     color: var(--text-color);
-    margin-right: 16rem;
-    margin-left: 7.4rem;
     text-decoration: none;
+    padding-right: 23.7rem;
 }
 
 .NavBar__links__SobreNos {
@@ -84,7 +84,6 @@ body {
     align-items: center;
     text-align: center;
     gap: 1.5rem;
-    margin-top: 6rem;
     margin-bottom: 6.7rem;
 }
 
@@ -114,7 +113,8 @@ body {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    margin: 0 7rem;
+    margin: 0 7rem 12rem 7rem;
+    padding: 0 2rem;
     text-align: left;
 }
 
@@ -146,5 +146,94 @@ body {
     line-height: 1.5;
 }
 
+.Anuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0rem 5rem 4rem 5rem;
+}
 
+.Anuncio__VagasAbertas {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--main-color);
+    font-family: var(--font-family);
+    background-color: #8E24240D;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+}
 
+.Anuncio__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--title-text-color);
+    line-height: 2.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.Anuncio__paragrafo {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.875;
+}
+
+.Anuncio__imagem {
+    margin-top: 3rem;
+    height: auto;
+    padding: 0 2rem;
+    width: 106rem;
+}
+
+.Vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 7rem;
+    padding: 0 2rem;
+    
+}
+.Vagas__Design__ProductDesign, .Vagas__Design__UXDesigner, .Vagas__Desenvolvimento__IOS, .Vagas__Desenvolvimento__Frontend, .Vagas__Desenvolvimento__Backend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.5rem;  
+    margin-bottom: 1.5rem;
+    width: 48rem;
+    border: #EAECF0 1px solid;
+    border-radius: 1rem;
+    font-family: var(--font-family);
+
+}
+
+.Vagas__Desenvolvimento__titulo, .Vagas__Design__titulo {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--title-text-color);
+    line-height: 1.875rem;
+    margin-bottom: 2rem ;
+}
+
+.Vagas__Design__ProductDesign__titulo, .Vagas__Design__UXDesigner__titulo, .Vagas__Desenvolvimento__IOS__titulo, .Vagas__Desenvolvimento__Frontend__titulo, .Vagas__Desenvolvimento__Backend__titulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--title-text-color);
+    line-height: 1.875rem;
+    align-self: start;
+    padding: 0 1.5rem 2rem 
+}
+
+.Vagas__Design__ProductDesign__informacoes, .Vagas__Design__UXDesigner__informacoes, .Vagas__Desenvolvimento__IOS__informacoes, .Vagas__Desenvolvimento__Frontend__informacoes, .Vagas__Desenvolvimento__Backend__informacoes {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.5;
+    padding: 0 1.5rem 2rem;
+    align-self: start;
+    flex-direction: row;
+    gap: 1.5rem;
+}
